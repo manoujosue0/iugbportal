@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IUGB Portal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f2f2f2;
+    }
+
+    header {
+      background: white;
+      border-bottom: 4px solid #46005C;
+      padding: 10px 20px;
+    }
+
+    header img {
+      height: 60px;
+    }
+
+    nav {
+      background-color: #003366;
+      padding: 10px;
+      display: flex;
+      gap: 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      display: flex;
+      margin: 20px;
+    }
+
+    aside {
+      width: 25%;
+      padding: 15px;
+      background-color: #e6e6e6;
+    }
+
+    main {
+      width: 75%;
+      padding: 15px;
+      background-color: white;
+    }
+
+    .section-title {
+      background-color: #003366;
+      color: white;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .box {
+      background-color: #e6f2ff;
+      padding: 10px;
+      border-left: 5px solid #003366;
+    }
+
+    footer {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 0.8rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="https://iugb.edu.ci/wp-content/uploads/2021/11/IUGB-Logo.png" alt="IUGB Logo">
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Student Life</a>
+  <a href="#">Students Portal</a>
+  <a href="#">Admissions</a>
+  <a href="#">Community</a>
+  <a href="#">Job Info</a>
+  <a href="#">My Pages</a>
+</nav>
+
+<div class="container">
+  <aside>
+    <h3>Quick Links</h3>
+    <ul>
+      <li><a href="#">IUGB Website</a></li>
+      <li><a href="#">Moodle: IUGB LMS</a></li>
+      <li><a href="#">TURNITIN</a></li>
+      <li><a href="#">Document Request Form</a></li>
+    </ul>
+    <h3>My Courses</h3>
+    <ul>
+      <li>CIS–3301_2425–SP</li>
+      <li>CIS–3305_2425–SP</li>
+      <li>CIS–3322_2425–SP</li>
+      <li>CIS–3325_2425–SP</li>
+      <li>MGS–3301_2425–SP_B</li>
+    </ul>
+  </aside>
+
+  <main>
+    <h2>Welcome - International University of Grand-Bassam Portal</h2>
+
+    <div class="section-title">Public Page</div>
+    <div class="box">
+      <p><strong>The <em>myIUGB</em> portal</strong> provides access to information, self-service options and personalized communications...</p>
+      <h4>Prospective Students:</h4>
+      <ul>
+        <li>Apply for admission</li>
+        <li>Check application status</li>
+        <li>Accept offer of admission</li>
+      </ul>
+
+      <h4>Students:</h4>
+      <ul>
+        <li>Register for classes</li>
+        <li>View class schedules</li>
+        <li>Review grades and academic records</li>
+        <!-- Add more if needed -->
+      </ul>
+    </div>
+  </main>
+</div>
+
+<footer>
+  &copy; 2025 International University of Grand-Bassam
+</footer>
+
+</body>
+</html>
